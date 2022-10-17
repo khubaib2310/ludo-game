@@ -9,7 +9,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
-  
+
 }
 
 body {
@@ -169,4 +169,84 @@ main {
 
 .hidden{
   display: none;
+}
+
+@media screen and (max-width: 768px){
+  main {
+
+    width: 66rem;
+    height: 60rem;
+  
+}
+
+.name {
+  font-size: 3rem;
+}
+
+}
+@media screen and (max-width: 500px){
+
+    main {
+        width: 48rem;
+        height: 47rem;
+    }
+  
+
+
+.name{
+  font-size: 2.1rem;
+}
+
+.player{
+  padding: 3.9rem;
+  
+}
+}
+@media screen and (max-width: 426px) {
+  main {
+    width: 38rem;
+    height: 43rem;
+  
+}
+
+.current{
+    width: 100%;
+
+}
+
+.current-label{
+font-size: 1.3rem;
+}
+
+.btn--new {
+  top: 7.9rem;
+  font-size: 1.2rem;
+  padding: 0.5rem 9px;
+}
+
+.btn::first-letter {
+  font-size: 1.4rem;
+
+}
+
+.name {
+  font-size: 1.9rem;
+}
+
+.btn--roll {
+  top: 29.2rem;
+}
+
+.btn--hold {
+  top: 34.1rem;
+}
+
+.btn{
+  font-size: 1.2rem;
+  padding: 0.5rem 1.3rem;
+}
+
+.dice {
+  height: 8rem;
+}
 }
